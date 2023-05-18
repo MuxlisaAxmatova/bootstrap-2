@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    max-width: 1440px;
+    width: 90%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+.netco__header {
+    background-image: url(/images/Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+
+    .nav {
+        .menyu-header {
+            .contact {
+                font-size: 13px;
+                position: absolute;
+                left: 460px;
+                top: 50px;
+                .location>img{
+                    position: absolute;
+                    top: 0;
+                    right: 490px;
+                }
+            }
+        }
+    }
+      .facebook__icon{
+        position: relative;
+        top: -8px;
+        left: -125px;
+      }
+      .instagram__icon{
+        position: relative;
+        top: -8px;
+        left: -125px;
+      }
+      .telegram__icon{
+        position: relative;
+        top: -8px;
+        left: -125px;
+      }
+    .container {
+        .header-content {
+            h1 {
+                width: 60%; 
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 64px;
+                color: #FCCC43;
+            }
+
+            p {
+                width: 48%;
+                font-family: 'DIN Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                padding: 15px 0;
+            }
+        }
+    }
+}
+
+.btn-class {
+    padding: 10px 50px;
+    padding-top: 20px 20px;
+    background-color: #fff;
+    color: #07003B;
+    border: 1px solid #010F56;
+    border-radius: 2px;
+    transition: all 0.2s linear;
+
+    &:hover {
+        background-color: #07003B;
+        color: #fff;
+    }
+
+}
+.title {
+    font-size: 15px;
+    font-weight: bold;
+}
+.card__title{
+    padding-bottom: 20px;
+    .card-text {
+        h3 {
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 37px;
+            color: #010F56;
+            padding: 50px 0;
+        }
+    }
+
+    .card {
+        .card-content {
+            padding-left: 10px;
+
+            h4 {
+                padding-top: 15px;
+            }
+
+            .card__style {
+                color: #000000;
+                background: #FCCC43;
+                border-radius: 2px;
+                width: 100px;
+                text-align: center;
+            }
+
+            .card__color {
+                background: #1CB60E;
+                border-radius: 2px;
+                width: 120px;
+                text-align: center;
+                color: #fff;
+            }
+
+            .card__keys {
+                background: #FF027E;
+                border-radius: 2px;
+                width: 170px;
+                text-align: center;
+                color: #fff;
+            }
+
+            .card__payment {
+                width: 100px;
+                background: #2F80ED;
+                color: #fff;
+                text-align: center;
+                border-radius: 2px;
+            }
+
+            .card-coffe {
+                width: 100px;
+                background: #D51313;
+                color: #fff;
+                text-align: center;
+                border-radius: 2px;
+            }
+            .card__coffe {
+                width: 100px;
+                background: #F95F09;
+                color: #fff;
+                text-align: center;
+                border-radius: 2px;
+            }
+        }
+    }
+
+}
+.table{
+    .table-content{
+        h3{
+            padding: 50px 0;
+        }
+    }
+}
+
+.footer__style{
+    background-color: #07003B;
+    .footer__img>img{
+        width: 130px;
+        height: 60px;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+    .footer__text{
+        position: relative;
+        top: 40px;
+        left: -200px;
+    }
+    .system{
+       position: relative;
+       top: 40px;
+       left:  -280px;
+    }
+    .system>img{
+        position: relative;
+        top: -10px;
+        left: -300px;
+    }
+    .header-icons{
+        position: relative;
+        top: -40px;
+        left:900px;
+
+    }
+}
